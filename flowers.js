@@ -29,13 +29,6 @@ const addFlower = (flowerObject) => {
 const findExpensiveFlowers = () => {
     const expensiveFlowers = []  // Do not change this code
 
-
-    /*
-        Write a for..of loop that iterate the array
-        of flowers, and if the price of a flower is
-        greater than or equal to 1.00, it should be
-        added to the `expensiveFlowers` array.
-    */
    for (const flower of flowers) {
        if (flower.price >= 1.00){
           expensiveFlowers.push(flower)
@@ -45,7 +38,6 @@ const findExpensiveFlowers = () => {
     return expensiveFlowers  // Do not change this code
 }
 
-/* console.log(expensiveFlowers) */
 
 // Do not touch this code
 module.exports = {
